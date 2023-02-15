@@ -9,11 +9,10 @@ body{
 }
 
 .container{
-    border: 1px solid black;
     max-width: 400px;
     width: 100%;
     height: 100vh;
-    min-height: 600px;
+    min-height: 500px;
     margin: 0 auto;
     padding: 0 1em;
 
@@ -22,17 +21,29 @@ body{
     justify-content: space-around;
     align-items: center;
 
-    background-color: #023047;
+    background-color: #ff5d8f;
+}
+
+.sec-con{
+    background-color: aquamarine;
 }
 
 h1{
-    color: #fefae0;
+    color: #ff8fab;
+    text-shadow: 0px 0px 1px black;
     font-size: 4rem;
 }
 
 h4{
-    color: #edf2f4;
+    color: #ccff33;
     text-align: center;
+    letter-spacing: 2px;
+}
+
+.activity{
+    color: #e5ece9;
+    font-size: 1.5rem;
+    letter-spacing: 0;
 }
 
 button{
@@ -40,6 +51,9 @@ button{
     height: 100px;
     border-radius: 50%;
 
-    background-color: #e63946;
-    border: 4px solid #d90429;
+    background-color: #ff8fab;
+    border: 4px solid #fb6f92;
+    box-shadow: 0px 0px 10px #dd2d4a;
+
+    cursor: pointer;
 }
